@@ -25,21 +25,18 @@ public class Counter {
 	    }
 
 	    public static void main(String[] args) {
-	        // Creating multiple Counter objects
-	        Counter counter1 = new Counter();
-	        Counter counter2 = new Counter();
-	        Counter counter3 = new Counter();
-
-	        // Calling the increment() method on each object multiple times
+	     
 	        for (int i = 0; i < 5; i++) {
-	            counter1.increment();
-	            counter2.increment();
-	            counter3.increment();
+	            Counter.increment();
+	            Counter.increment();
+	            Counter.increment();
 	        }
 
-	        // Printing the final value of count using the getCount() method
+	      
 	        System.out.println("Final value of count: " + Counter.getCount());
 	    }
+	    
+	    
 	}
 
 
